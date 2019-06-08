@@ -36,7 +36,9 @@
     "appium-support": "^2.26.1",
     "asyncbox": "^2.3.1",
     "bluebird": "^3.1.1",
+    "johnny-five": "^1.1.0",
     "lodash": "^4.17.10",
+    "raspi-io": "^10.0.2",
     "source-map-support": "^0.5.5",
     "yargs": "^13.1.0"
   },
