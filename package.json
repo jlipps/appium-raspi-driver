@@ -40,6 +40,7 @@
     "lodash": "^4.17.10",
     "raspi-io": "^10.0.2",
     "source-map-support": "^0.5.5",
+    "uuid": "^3.3.2",
     "yargs": "^13.1.0"
   },
   "scripts": {
