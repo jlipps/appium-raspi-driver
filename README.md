@@ -50,6 +50,12 @@ Only 4 commands in the extensive Webdriver spec are available in this driver:
 * Find Element. Only finding single elements by ID is supported. How do you know what ID to use? You specify it in the `app` capability mapping! Example: `driver.findElementById("A1")`.
 * Send Keys to Element. There are only two accepted values for this command: the strings `"0"` and `"1"`. `"0"` indicates that the pin should be set to low, whereas `"1"` indicates it should be set to high. Example: `element.sendKeys("0")`.
 
+## Sample projects
+
+Examples of this project in use:
+
+* [@jlipps](https://github.com/jlipps)'s [AppiumConf 2019 demo](https://github.com/jlipps/appiumconf2019), which uses this driver to automate a homebrew drum machine built with a Circuit Playground.
+
 ## TODO
 
 * There's quite a robust API available with Johnny Five. We could support more element types than just pins, for example LEDs, etc...
