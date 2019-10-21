@@ -19,6 +19,14 @@
   "engines": [
     "node"
   ],
+  "appium": {
+    "driverName": "raspi",
+    "automationName": "RaspberryPi",
+    "platformNames": [
+      "Linux"
+    ],
+    "mainClass": "RaspiDriver"
+  },
   "main": "./build/index.js",
   "bin": {},
   "directories": {
